@@ -1,17 +1,17 @@
 #write your code here
 
-def countdown(Integer)
-  while Integer > 0 do
+def countdown(number)
+  while number > 0 do
     puts "#{number} SECOND(S)!"
-    Integer -= 1
+    number -= 1
   end
   puts "HAPPY NEW YEAR!"
 end
 
-def countdown_with_sleep(Integer)
-  while Integer > 0 do
+def countdown_with_sleep(number)
+  while number > 0 do
     puts "#{number} SECOND(S)!"
-    Integer -= 1
+    number -= 1
     sleep(1)
   end
   puts "HAPPY NEW YEAR!"
